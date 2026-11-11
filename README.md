@@ -25,6 +25,16 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## E-commerce API
+
+This workspace implements a MongoDB-backed e-commerce API with user authentication,
+products, categories, and orders. See [FINAL_REPORT.md](./FINAL_REPORT.md) for routes,
+environment variables, setup, and current verification results.
+
+Copy `.env.example` to `.env` and set `MONGODB_URI` and a private `JWT_SECRET` of at
+least 32 characters. Start MongoDB locally, then run `npm run start:dev`. Do not
+commit `.env` files; the repository ignores them.
+
 ## Project setup
 
 ```bash
